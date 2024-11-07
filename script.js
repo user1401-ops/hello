@@ -161,6 +161,9 @@ arr.forEach(button => {
         else if (e.target.innerHTML == 'e') {
             string = "";
         }
+        else if (e.target.innerHTML == 'Calculate') {
+            string = "";
+        }
         else {
             string += e.target.innerHTML;
             input.value = string;
