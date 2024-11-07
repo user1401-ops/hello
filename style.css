@@ -207,6 +207,10 @@ button {
     .scientific-calculator{
     transform: translateX(571px);
     }
+    .scientific-calculator.show {
+        left: 0;
+        opacity: 1;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
